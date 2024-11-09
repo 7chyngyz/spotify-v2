@@ -2,11 +2,9 @@
 import React from "react";
 import scss from "./Reaview.module.scss";
 import { useGetCategoryQuery } from "@/redux/api/category";
-// import { useRouter } from "next/navigation";
 
 const Review = () => {
   const { data } = useGetCategoryQuery();
-//   const router = useRouter();
   return (
     <section className={scss.Review}>
       <div className={scss.container}>
@@ -14,9 +12,9 @@ const Review = () => {
           <h1>Все остальное</h1>
           <div className={scss.blocks}>
             {data?.categories.items.map((item, index) => (
-                <div className={scss.category}>
+                <div key={index} className={scss.category}>
                     <img src={item.icons[0].url} alt="" />
-                    <p>{item.name   }</p>
+                    <p>{item.name}</p>
                 </div>
             ))}
           </div>

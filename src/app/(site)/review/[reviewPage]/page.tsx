@@ -1,6 +1,6 @@
-// import Review from "@/components/pages/searchQuerySections/Review";
-// import React from "react";
+import Review from "@/components/pages/searchQuerySections/Review";
+import React from "react";
 
-// const page = () => <Review />;
+const page = () => <Review />;
 
-// export default page;
+export default page;
