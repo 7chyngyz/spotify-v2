@@ -1,0 +1,12 @@
+.LayoutSite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #000;
+  .content {
+    display: flex;
+  }
+  footer {
+    margin-top: auto;
+  }
+}

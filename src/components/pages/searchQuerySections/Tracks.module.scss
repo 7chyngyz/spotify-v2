@@ -1,0 +1,44 @@
+.Tracks {
+  position: relative;
+  right: 23px;
+  background: #141414;
+  width: 1030px;
+  height: 455px;
+  border-radius: 7px;
+  .content {
+    .albom {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 15px;
+      border-bottom: 1px solid #242424;
+    }
+    .track {
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      .allContent {
+        img {
+          border-radius: 7px;
+        }
+        display: flex;
+        align-items: center;
+        padding: 6px 20px;
+        width: 700px;
+        border-radius: 20px;
+      }
+      .text {
+        position: absolute;
+        margin-left: 480px;
+        p {
+          font-size: 19px;
+        }
+        span {
+          font-size: 14px;
+          opacity: 0.7;
+          cursor: pointer;
+          user-select: none;
+        }
+      }
+    }
+  }
+}

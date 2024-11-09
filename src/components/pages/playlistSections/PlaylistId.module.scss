@@ -1,0 +1,20 @@
+.PlaylistId {
+  background: #141414;
+  width: 1030px;
+  height: 490px;
+  border-radius: 7px;
+  margin-left: 9px;
+  .content {
+    .playlistTracks {
+      .track {
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

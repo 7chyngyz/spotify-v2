@@ -1,0 +1,25 @@
+.NavBar {
+  .content {
+    .types {
+      display: flex;
+      padding: 15px 15px;
+      gap: 10px;
+      a {
+        background-color: #242424;
+        height: 30px;
+        border-radius: 20px;
+        text-align: center;
+        padding: 5px 10px;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.793);
+        cursor: pointer;
+        transition: color 0.1s linear;
+
+        &:hover {
+          color: white;
+          background: #323232;
+        }
+      }
+    }
+  }
+}
